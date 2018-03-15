@@ -1,0 +1,30 @@
+.company-search {
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.company-search input {
+  box-shadow: none;
+  border: 1px solid #eee;
+  padding: 22px 30px 22px 50px;
+  border-radius: 25px;
+}
+
+.company-search input:hover,
+.company-search input:focus {
+  border-color: #ddd;
+  outline: none;
+  box-shadow: none;
+}
+
+.company-search .search-icon {
+  position: absolute;
+  top: 13px;
+  left: 18px;
+  z-index: 1;
+}
+
+.company-search .control:after {
+  top: 15px;
+  right: 17px;
+}

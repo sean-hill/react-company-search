@@ -1,0 +1,39 @@
+.company-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+  border-bottom: 1px solid #eee;
+  transition: all linear 200ms;
+  position: relative;
+}
+
+.company-item:after {
+  border: 2px solid #ccc;
+  border-right: 0;
+  border-top: 0;
+  content: ' ';
+  display: block;
+  height: 0.5em;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  width: 0.5em;
+  margin-top: -0.375em;
+  right: 20px;
+  top: 50%;
+  z-index: 4;
+  font-size: 16px;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  top: 54%;
+}
+
+.company-item:hover {
+  background: #fafafa;
+  cursor: pointer;
+}
+
+.company-item .name {
+  padding-left: 10px;
+}
